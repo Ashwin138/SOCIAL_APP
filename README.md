@@ -1,50 +1,77 @@
-# Welcome to your Expo app 👋
+# PhotoShare - Social Media App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern, feature-rich social media application built with React Native and Expo. Share photos, connect with friends, and engage with a vibrant community.
 
-## Get started
+## Features
 
-1. Install dependencies
+- **User Authentication** - Secure login and registration system
+- **Photo Sharing** - Upload multiple photos per post (up to 10 images)
+- **Social Interactions** - Like, comment, and share posts
+- **Direct Messaging** - Chat with friends in real-time
+- **Friend System** - Send and manage friend requests
+- **Notifications** - Stay updated with likes, comments, and friend activity
+- **Profile Management** - Customize your profile with photos and bio
+- **Dark Theme** - Sleek, modern dark interface
+- **Responsive Design** - Optimized for mobile devices
 
-   ```bash
-   npm install
-   ```
+## Tech Stack
 
-2. Start the app
+- React Native
+- Expo
+- AsyncStorage for local data persistence
+- React Navigation for routing
+- Expo Image Picker for media handling
 
-   ```bash
-   npx expo start
-   ```
+## Installation
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+1. Clone the repository:
 ```bash
-npm run reset-project
+git clone https://github.com/Ashwin138/SOCIAL_APP.git
+cd SOCIAL_APP
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+2. Install dependencies:
+```bash
+npm install
+```
 
-## Learn more
+3. Start the development server:
+```bash
+npx expo start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Scan the QR code with Expo Go app on your phone
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Project Structure
 
-## Join the community
+```
+PhotoShareApp/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── screens/         # App screens
+│   ├── constants/       # Theme and constants
+│   └── utils/          # Utility functions
+├── assets/             # Images and media
+└── App.js             # Main entry point
+```
 
-Join our community of developers creating universal apps.
+## Screenshots
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Coming soon...
+
+## Development
+
+This app is under active development. New features and improvements are being added regularly.
+
+## License
+
+MIT License - feel free to use this project for learning purposes.
+
+## Contributing
+
+Contributions are welcome! Feel free to submit issues and pull requests.
+
+---
+
+Built with ❤️ using React Native
+
