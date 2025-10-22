@@ -74,4 +74,6 @@ Contributions are welcome! Feel free to submit issues and pull requests.
 ---
 
 Built with ❤️ using React Native
+Made while Learning..... ASHWIN
+
 
